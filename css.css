@@ -1,0 +1,41 @@
+  .menu {
+    background: #0099FF;
+    color: #f8f8f8;
+    padding-top:30px;
+    padding-bottom:10px;
+  }
+
+  .transparent {
+    background: transparent;
+    border: none
+  }
+
+  .esp {
+    margin-left: 20px;
+  }
+
+  .pesquisa {
+    background: transparent;
+    border: none;
+    border-radius: 9px;
+    color:#f8f8f8;
+  }
+  .pesquisa::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+      color:#f8f8f8;
+  }
+  .pesquisa:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+      color:#f8f8f8;
+  }
+  .pesquisa::-moz-placeholder { /* Mozilla Firefox 19+ */
+      color:#f8f8f8;
+  }
+  .pesquisa:-ms-input-placeholder { /* Internet Explorer 10-11 */
+     color:#f8f8f8;
+  }
+  .pesquisa:placeholder-shown { /* Standard (https://drafts.csswg.org/selectors-4/#placeholder) */
+    color:#f8f8f8;
+  }
+
+.navbar-nav a {
+  color: #f8f8f8 !important;
+}
